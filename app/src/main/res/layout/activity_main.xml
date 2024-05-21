@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/android_large___2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingTop="778dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/beranda"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/beranda_without_bold" />
+
+        <ImageView
+            android:id="@+id/beliPaket"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_12" />
+
+        <ImageView
+            android:id="@+id/reward"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_10" />
+
+        <ImageView
+            android:id="@+id/imgMenu"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_6" />
+
+    </LinearLayout>
+</LinearLayout>
